@@ -1,0 +1,6 @@
+steps:
+- name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+  entrypoint: 'bash'
+  args: ['-c', 'gcloud app deploy --project=searce-playground-v1']
+  dir: google-app-engine
+timeout: '1600s'
